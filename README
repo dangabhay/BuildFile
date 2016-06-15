@@ -1,4 +1,18 @@
 BuildFile v0.1
 
-Welcome to the BuildFile project. The following instructions will help you accomodate a sample ANT build-file in your project.
+Welcome to the BuildFile project. The following steps will help you create a sample ANT build-file in your project.
+
+1. In your workspace, clone this package using the following command:
+git clone https://github.com/dangabhay/BuildFile.git NEWPROJECT
+
+Replace NEWPROJECT with the name of your project. This will create a folder with the name NEWPROJECT.
+
+2. Clean up your NEWPROJECT with the following commands.
+rm -rf .git/
+rm README
+
+3. Import the NEWPROJECT into your Eclipse WS: File > New > Java Project
+
+4. Create a git repository in your NEWPROJECT
+git init
 
